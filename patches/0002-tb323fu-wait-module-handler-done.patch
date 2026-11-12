@@ -1,0 +1,33 @@
+From 321f5cffb99e7c90a580faf7b1e4bf0368bcdc21 Mon Sep 17 00:00:00 2001
+From: polygraphene <polygraphene@gmail.com>
+Date: Sat, 4 Apr 2026 03:48:16 +0900
+Subject: [PATCH] Wait for the execution of module loaded handler.
+
+TWRP will mount /vendor on the next step and will overlay vendor blobs from
+rootfs. Then the handler will launch vendor services from the mounted
+/vendor. It made /vendor unmountable on the step which caused issues
+like failure of data wipe.
+
+TODO: Should the vendor services be placed in /system?
+---
+ kernel_module_loader.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/kernel_module_loader.cpp b/kernel_module_loader.cpp
+index d93a713a..4d958f57 100644
+--- a/kernel_module_loader.cpp
++++ b/kernel_module_loader.cpp
+@@ -166,6 +166,10 @@ exit:
+ #endif
+ 
+ 	android::base::SetProperty(TW_MODULES_MOUNTED_PROP, "true");
++	// This is required for properly umount /vendor on the next step.
++	LOGINFO("Waiting for twrp.module.handler_done\n");
++	android::base::WaitForProperty("twrp.module.handler_done", "true");
++	LOGINFO("Waiting done twrp.module.handler_done\n");
+ 
+ 	return true;
+ }
+-- 
+2.54.0.windows.1
+

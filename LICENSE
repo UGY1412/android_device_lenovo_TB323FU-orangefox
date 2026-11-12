@@ -1,0 +1,26 @@
+Mixed-origin device tree / 混合来源设备树
+
+Author/Maintainer: krollv, @DeepSeek V4.1 Flash 1017
+作者/维护者：自恋也是种美，@DeepSeek V4.1 Flash 1017
+
+This repository is a mixed-origin device tree. No single blanket license
+applies to every file. / 本仓库为混合来源设备树，没有一条适用于全部文件的统一许可证。
+
+- Files carrying `SPDX-License-Identifier: Apache-2.0` are licensed under the
+  Apache License 2.0 (see `LICENSES/Apache-2.0.txt`).
+  带 `SPDX-License-Identifier: Apache-2.0` 的文件适用 Apache-2.0（见 `LICENSES/Apache-2.0.txt`）。
+- Files with their own notices retain those terms; patches remain subject to
+  their upstream project licenses.
+  带自身通知的文件保留原条款；补丁适用其上游项目许可证。
+- Lenovo/Qualcomm proprietary binaries, firmware, services and libraries are
+  **NOT** distributed in this repository. Builders must obtain them from
+  firmware they are legally entitled to use.
+  **不分发**联想/高通专有二进制、固件、服务与库；使用者须从自己合法持有的固件提取。
+- No blanket license is asserted for files lacking an explicit license or a
+  clear upstream origin.
+  对没有明确许可证或清晰上游来源的文件，不主张统一许可证。
+- Attribution and takedown policy: see `docs/COMPLIANCE.md` and `CREDITS.md`.
+  归属与下架政策见 `docs/COMPLIANCE.md` 与 `CREDITS.md`。
+
+This file is practical project documentation, not legal advice.
+本文件为项目实践说明，不构成法律意见。

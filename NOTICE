@@ -1,0 +1,45 @@
+TB323FU recovery device tree - project copyright and attribution
+================================================================
+
+Copyright (C) 2026 自恋也是种美 (krollv)
+Author/Maintainer: krollv, @DeepSeek V4.1 Flash 1017
+
+This repository's original project content (device-tree build files, recovery
+configuration and init files, scripts, patches and documentation authored for
+this project) is provided by the project maintainers. Where a file carries an
+SPDX license identifier, that identifier governs the file; the original
+Apache-2.0 text is in LICENSES/Apache-2.0.txt. Third-party and vendor-derived
+material keeps its own upstream terms and is attributed in CREDITS.md,
+docs/ATTRIBUTION.md and docs/COMPLIANCE.md.
+
+版权与归属补充 / Copyright and attribution supplement:
+  版权所有 (C) 2026 自恋也是种美 (krollv)
+  作者/维护者：自恋也是种美，@DeepSeek V4.1 Flash 1017
+  本项目原创内容（设备树构建文件、recovery 配置与 init 文件、脚本、补丁与文档）
+  由本项目维护者提供；带 SPDX 标识的文件以该标识为准，Apache-2.0 原文见
+  LICENSES/Apache-2.0.txt。第三方与厂商来源材料保留各自上游条款，归属见
+  CREDITS.md、docs/ATTRIBUTION.md 与 docs/COMPLIANCE.md。
+
+--- Original notice follows unchanged below / 以下保留原有 NOTICE 全文不变 ---
+
+TB323FU TWRP - third-party and provenance notice
+
+Unofficial community TWRP device-tree project for Lenovo TB323FU.
+
+Derived from or incorporating work from TeamWin Recovery Project, TWRP-Test,
+polygraphene's TB322FC recovery work, and AOSP. Individual files retain their
+existing copyright/SPDX/license notices.
+
+Lenovo/Qualcomm proprietary binaries and firmware are not distributed in this
+Git repository.
+
+Six third-party shell utilities are distributed as binary prebuilts: curl,
+fastfetch, git, wget, zsh and zstd. Their versions, hashes, notices and source
+provenance are documented in docs/THIRD_PARTY_TOOLS.md and
+LICENSES/third-party-tools/.
+
+Accompanying source/provenance bundle: TB323FU-TWRP-third-party-corresponding-source-fix3b.tar.xz
+SHA-256: 49eaaf833512753260320cdc0c7263a3de16fb0ac3a9159a0815146307f6b79d
+
+Lenovo, Qualcomm, Google, Android, TeamWin and other marks belong to their
+respective owners. This is not an official or endorsed release.
