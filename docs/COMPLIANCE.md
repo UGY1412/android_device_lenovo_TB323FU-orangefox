@@ -74,7 +74,7 @@ be redistributed:
    material. No dedicated e-mail address has been published for this project
    yet; if one is added later it will be listed here (待验证 / to be verified).
 
-This section is a practical project policy, not legal advice.
+This section describes project policy.
 
 ### 6. Disclaimer
 
@@ -84,7 +84,7 @@ This section is a practical project policy, not legal advice.
   their respective owners.
 - Nothing in this repository grants rights to proprietary Lenovo/Qualcomm
   material.
-- This document is practical compliance documentation, not legal advice; obtain
+- This is compliance documentation; obtain
   professional advice if you intend to redistribute third-party material.
 
 ### 7. Items marked "to be verified" (待验证)

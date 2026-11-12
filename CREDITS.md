@@ -24,7 +24,7 @@ this repository. The same rows are given in English and Chinese below. See also
 | 7 | isrgish / TB323FU-TWRP | <https://github.com/isrgish/TB323FU-TWRP> | Baseline TB323FU TWRP device tree this repository derives from and corrects | **No explicit LICENSE file**: the upstream repository declares provenance/lineage only, and no license grant is asserted by the upstream author. Treated as an attributed upstream source; confirm reuse terms with the upstream author. |
 | 8 | aweiyry / lenovo-ota-tool | <https://github.com/aweiyry/lenovo-ota-tool> | External tool used to obtain/handle Lenovo OTA and stock partition images; not vendored | MIT |
 | 9 | AERA Recovery Project | <https://github.com/AERA-Recovery/android_manifest> | Sibling recovery project for the same device (see the `-aera` repository); no AERA source was identified as vendored in this TWRP/OrangeFox tree (待验证 per file) | Upstream project licenses |
-| 10 | DeepSeek V4.1 Flash 1017 | — | AI coding assistant used by the maintainer during development and documentation | **Tool, not a copyright holder**; no license claim and no code ownership |
+| 10 | DeepSeek V4.1 Flash 1017 | — | Co-author (collaboration on development and documentation) | — |
 | 11 | Six prebuilt shell tools: curl, fastfetch, git, wget, zsh, zstd | see `docs/THIRD_PARTY_TOOLS.md` | Tracked third-party binary prebuilts | Per-tool licenses; texts under `LICENSES/third-party-tools/` |
 | 12 | Magisk (topjohnwu) | <https://github.com/topjohnwu/Magisk> | Referenced by the OrangeFox release line for Magisk integration; not vendored as source in this tree | GPL-3.0 (upstream); not bundled in this Git repository |
 
@@ -41,7 +41,7 @@ this repository. The same rows are given in English and Chinese below. See also
 | 7 | isrgish / TB323FU-TWRP | <https://github.com/isrgish/TB323FU-TWRP> | 本仓库所衍生并修正的 TB323FU TWRP 设备树基线 | **无显式 LICENSE 文件**：上游仓库只声明来源/传承，上游作者未声明任何许可授权。按“已署名的上游来源”对待；复用条款需与上游作者确认。 |
 | 8 | aweiyry / lenovo-ota-tool | <https://github.com/aweiyry/lenovo-ota-tool> | 用于获取/处理联想 OTA 与 stock 分区镜像的外部工具；未随仓库分发 | MIT |
 | 9 | AERA Recovery Project | <https://github.com/AERA-Recovery/android_manifest> | 同设备的兄弟 recovery 项目（见 `-aera` 仓库）；本 TWRP/OrangeFox 树中未识别到直接引入的 AERA 源码（逐文件待验证） | 上游项目许可 |
-| 10 | DeepSeek V4.1 Flash 1017 | — | 维护者在开发与文档过程中使用的 AI 编程助手 | **工具，非版权方**；不主张许可，也不拥有代码版权 |
+| 10 | DeepSeek V4.1 Flash 1017 | — | 共同署名（协作开发与文档） | — |
 | 11 | 六个预编译 shell 工具：curl、fastfetch、git、wget、zsh、zstd | 见 `docs/THIRD_PARTY_TOOLS.md` | 随仓库跟踪的第三方二进制预编译件 | 各工具许可；原文见 `LICENSES/third-party-tools/` |
 | 12 | Magisk（topjohnwu） | <https://github.com/topjohnwu/Magisk> | OrangeFox 发布线引用其完成 Magisk 集成；本仓库未以源码形式引入 | GPL-3.0（上游）；本 Git 仓库未捆绑其源码 |
 

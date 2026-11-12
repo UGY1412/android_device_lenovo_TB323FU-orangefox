@@ -29,4 +29,4 @@ The exact generic ndk-pkg engine commit originally used for the inherited
 static binaries was not proven. No byte-for-byte rebuild claim is made.
 License/notice texts are under `LICENSES/third-party-tools/`.
 
-This is practical provenance documentation, not legal advice.
+License texts for bundled tools are in `LICENSES/`.

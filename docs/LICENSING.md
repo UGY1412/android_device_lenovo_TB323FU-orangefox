@@ -30,4 +30,4 @@ SHA-256: `49eaaf833512753260320cdc0c7263a3de16fb0ac3a9159a0815146307f6b79d`
 The normal TWRP build does not rebuild these utilities.
 
 No blanket license is asserted for files lacking an explicit license or clear
-upstream origin. This document is practical project documentation, not legal advice.
+upstream origin. See NOTICE and CREDITS for attribution.

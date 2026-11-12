@@ -8,4 +8,4 @@ upstream source archives included in the accompanying source/provenance bundle:
 SHA-256: `49eaaf833512753260320cdc0c7263a3de16fb0ac3a9159a0815146307f6b79d`
 
 `NOTICE-SOURCE-MAP.tsv` maps each notice back to its source archive.
-This material is practical redistribution/source provenance, not legal advice.
+Source redistribution and provenance information.
